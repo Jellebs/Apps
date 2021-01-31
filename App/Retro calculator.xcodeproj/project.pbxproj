@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8356C7525C6BD8C00F22540 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = C8356C7425C6BD8C00F22540 /* btn.wav */; };
+		C88A003825C5F5A600B8A9B1 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C88A003725C5F5A600B8A9B1 /* Minecraft.ttf */; };
+		C88AFFCF25C5DF3A00B8A9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88AFFCE25C5DF3A00B8A9B1 /* AppDelegate.swift */; };
+		C88AFFD125C5DF3A00B8A9B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88AFFD025C5DF3A00B8A9B1 /* SceneDelegate.swift */; };
+		C88AFFD325C5DF3A00B8A9B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88AFFD225C5DF3A00B8A9B1 /* ViewController.swift */; };
+		C88AFFD625C5DF3A00B8A9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88AFFD425C5DF3A00B8A9B1 /* Main.storyboard */; };
+		C88AFFD825C5DF4100B8A9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88AFFD725C5DF4100B8A9B1 /* Assets.xcassets */; };
+		C88AFFDB25C5DF4100B8A9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88AFFD925C5DF4100B8A9B1 /* LaunchScreen.storyboard */; };
+		C88AFFE625C5DF4100B8A9B1 /* Retro_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88AFFE525C5DF4100B8A9B1 /* Retro_calculatorTests.swift */; };
+		C88AFFF125C5DF4200B8A9B1 /* Retro_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88AFFF025C5DF4200B8A9B1 /* Retro_calculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C88AFFE225C5DF4100B8A9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C88AFFC325C5DF3A00B8A9B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C88AFFCA25C5DF3A00B8A9B1;
+			remoteInfo = "Retro calculator";
+		};
+		C88AFFED25C5DF4200B8A9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C88AFFC325C5DF3A00B8A9B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C88AFFCA25C5DF3A00B8A9B1;
+			remoteInfo = "Retro calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8356C7425C6BD8C00F22540 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = btn.wav; path = Assets/Billeder/btn.wav; sourceTree = SOURCE_ROOT; };
+		C88A003725C5F5A600B8A9B1 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Minecraft.ttf; path = Assets/Fonts/Minecraft.ttf; sourceTree = SOURCE_ROOT; };
+		C88AFFCB25C5DF3A00B8A9B1 /* Retro calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retro calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88AFFCE25C5DF3A00B8A9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C88AFFD025C5DF3A00B8A9B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C88AFFD225C5DF3A00B8A9B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C88AFFD525C5DF3A00B8A9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C88AFFD725C5DF4100B8A9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C88AFFDA25C5DF4100B8A9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C88AFFDC25C5DF4100B8A9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88AFFE125C5DF4100B8A9B1 /* Retro calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Retro calculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88AFFE525C5DF4100B8A9B1 /* Retro_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retro_calculatorTests.swift; sourceTree = "<group>"; };
+		C88AFFE725C5DF4100B8A9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88AFFEC25C5DF4100B8A9B1 /* Retro calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Retro calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88AFFF025C5DF4200B8A9B1 /* Retro_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retro_calculatorUITests.swift; sourceTree = "<group>"; };
+		C88AFFF225C5DF4200B8A9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C88AFFC825C5DF3A00B8A9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88AFFDE25C5DF4100B8A9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88AFFE925C5DF4100B8A9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C88AFFC225C5DF3A00B8A9B1 = {
+			isa = PBXGroup;
+			children = (
+				C88AFFCD25C5DF3A00B8A9B1 /* Retro calculator */,
+				C88AFFE425C5DF4100B8A9B1 /* Retro calculatorTests */,
+				C88AFFEF25C5DF4200B8A9B1 /* Retro calculatorUITests */,
+				C88AFFCC25C5DF3A00B8A9B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C88AFFCC25C5DF3A00B8A9B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C88AFFCB25C5DF3A00B8A9B1 /* Retro calculator.app */,
+				C88AFFE125C5DF4100B8A9B1 /* Retro calculatorTests.xctest */,
+				C88AFFEC25C5DF4100B8A9B1 /* Retro calculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C88AFFCD25C5DF3A00B8A9B1 /* Retro calculator */ = {
+			isa = PBXGroup;
+			children = (
+				C88A003725C5F5A600B8A9B1 /* Minecraft.ttf */,
+				C8356C7425C6BD8C00F22540 /* btn.wav */,
+				C88AFFCE25C5DF3A00B8A9B1 /* AppDelegate.swift */,
+				C88AFFD025C5DF3A00B8A9B1 /* SceneDelegate.swift */,
+				C88AFFD225C5DF3A00B8A9B1 /* ViewController.swift */,
+				C88AFFD425C5DF3A00B8A9B1 /* Main.storyboard */,
+				C88AFFD725C5DF4100B8A9B1 /* Assets.xcassets */,
+				C88AFFD925C5DF4100B8A9B1 /* LaunchScreen.storyboard */,
+				C88AFFDC25C5DF4100B8A9B1 /* Info.plist */,
+			);
+			path = "Retro calculator";
+			sourceTree = "<group>";
+		};
+		C88AFFE425C5DF4100B8A9B1 /* Retro calculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C88AFFE525C5DF4100B8A9B1 /* Retro_calculatorTests.swift */,
+				C88AFFE725C5DF4100B8A9B1 /* Info.plist */,
+			);
+			path = "Retro calculatorTests";
+			sourceTree = "<group>";
+		};
+		C88AFFEF25C5DF4200B8A9B1 /* Retro calculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C88AFFF025C5DF4200B8A9B1 /* Retro_calculatorUITests.swift */,
+				C88AFFF225C5DF4200B8A9B1 /* Info.plist */,
+			);
+			path = "Retro calculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C88AFFCA25C5DF3A00B8A9B1 /* Retro calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88AFFF525C5DF4200B8A9B1 /* Build configuration list for PBXNativeTarget "Retro calculator" */;
+			buildPhases = (
+				C88AFFC725C5DF3A00B8A9B1 /* Sources */,
+				C88AFFC825C5DF3A00B8A9B1 /* Frameworks */,
+				C88AFFC925C5DF3A00B8A9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Retro calculator";
+			productName = "Retro calculator";
+			productReference = C88AFFCB25C5DF3A00B8A9B1 /* Retro calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C88AFFE025C5DF4100B8A9B1 /* Retro calculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88AFFF825C5DF4200B8A9B1 /* Build configuration list for PBXNativeTarget "Retro calculatorTests" */;
+			buildPhases = (
+				C88AFFDD25C5DF4100B8A9B1 /* Sources */,
+				C88AFFDE25C5DF4100B8A9B1 /* Frameworks */,
+				C88AFFDF25C5DF4100B8A9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C88AFFE325C5DF4100B8A9B1 /* PBXTargetDependency */,
+			);
+			name = "Retro calculatorTests";
+			productName = "Retro calculatorTests";
+			productReference = C88AFFE125C5DF4100B8A9B1 /* Retro calculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C88AFFEB25C5DF4100B8A9B1 /* Retro calculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88AFFFB25C5DF4200B8A9B1 /* Build configuration list for PBXNativeTarget "Retro calculatorUITests" */;
+			buildPhases = (
+				C88AFFE825C5DF4100B8A9B1 /* Sources */,
+				C88AFFE925C5DF4100B8A9B1 /* Frameworks */,
+				C88AFFEA25C5DF4100B8A9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C88AFFEE25C5DF4200B8A9B1 /* PBXTargetDependency */,
+			);
+			name = "Retro calculatorUITests";
+			productName = "Retro calculatorUITests";
+			productReference = C88AFFEC25C5DF4100B8A9B1 /* Retro calculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C88AFFC325C5DF3A00B8A9B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C88AFFCA25C5DF3A00B8A9B1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					C88AFFE025C5DF4100B8A9B1 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = C88AFFCA25C5DF3A00B8A9B1;
+					};
+					C88AFFEB25C5DF4100B8A9B1 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = C88AFFCA25C5DF3A00B8A9B1;
+					};
+				};
+			};
+			buildConfigurationList = C88AFFC625C5DF3A00B8A9B1 /* Build configuration list for PBXProject "Retro calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C88AFFC225C5DF3A00B8A9B1;
+			productRefGroup = C88AFFCC25C5DF3A00B8A9B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C88AFFCA25C5DF3A00B8A9B1 /* Retro calculator */,
+				C88AFFE025C5DF4100B8A9B1 /* Retro calculatorTests */,
+				C88AFFEB25C5DF4100B8A9B1 /* Retro calculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C88AFFC925C5DF3A00B8A9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8356C7525C6BD8C00F22540 /* btn.wav in Resources */,
+				C88AFFDB25C5DF4100B8A9B1 /* LaunchScreen.storyboard in Resources */,
+				C88AFFD825C5DF4100B8A9B1 /* Assets.xcassets in Resources */,
+				C88A003825C5F5A600B8A9B1 /* Minecraft.ttf in Resources */,
+				C88AFFD625C5DF3A00B8A9B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88AFFDF25C5DF4100B8A9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88AFFEA25C5DF4100B8A9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C88AFFC725C5DF3A00B8A9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88AFFD325C5DF3A00B8A9B1 /* ViewController.swift in Sources */,
+				C88AFFCF25C5DF3A00B8A9B1 /* AppDelegate.swift in Sources */,
+				C88AFFD125C5DF3A00B8A9B1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88AFFDD25C5DF4100B8A9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88AFFE625C5DF4100B8A9B1 /* Retro_calculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88AFFE825C5DF4100B8A9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88AFFF125C5DF4200B8A9B1 /* Retro_calculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C88AFFE325C5DF4100B8A9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C88AFFCA25C5DF3A00B8A9B1 /* Retro calculator */;
+			targetProxy = C88AFFE225C5DF4100B8A9B1 /* PBXContainerItemProxy */;
+		};
+		C88AFFEE25C5DF4200B8A9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C88AFFCA25C5DF3A00B8A9B1 /* Retro calculator */;
+			targetProxy = C88AFFED25C5DF4200B8A9B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C88AFFD425C5DF3A00B8A9B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C88AFFD525C5DF3A00B8A9B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C88AFFD925C5DF4100B8A9B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C88AFFDA25C5DF4100B8A9B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C88AFFF325C5DF4200B8A9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C88AFFF425C5DF4200B8A9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C88AFFF625C5DF4200B8A9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2R27Q8X55;
+				INFOPLIST_FILE = "Retro calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jesperb.Retro-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C88AFFF725C5DF4200B8A9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2R27Q8X55;
+				INFOPLIST_FILE = "Retro calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jesperb.Retro-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C88AFFF925C5DF4200B8A9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2R27Q8X55;
+				INFOPLIST_FILE = "Retro calculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jesperb.Retro-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Retro calculator.app/Retro calculator";
+			};
+			name = Debug;
+		};
+		C88AFFFA25C5DF4200B8A9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2R27Q8X55;
+				INFOPLIST_FILE = "Retro calculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jesperb.Retro-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Retro calculator.app/Retro calculator";
+			};
+			name = Release;
+		};
+		C88AFFFC25C5DF4200B8A9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2R27Q8X55;
+				INFOPLIST_FILE = "Retro calculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jesperb.Retro-calculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Retro calculator";
+			};
+			name = Debug;
+		};
+		C88AFFFD25C5DF4200B8A9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2R27Q8X55;
+				INFOPLIST_FILE = "Retro calculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jesperb.Retro-calculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Retro calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C88AFFC625C5DF3A00B8A9B1 /* Build configuration list for PBXProject "Retro calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88AFFF325C5DF4200B8A9B1 /* Debug */,
+				C88AFFF425C5DF4200B8A9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88AFFF525C5DF4200B8A9B1 /* Build configuration list for PBXNativeTarget "Retro calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88AFFF625C5DF4200B8A9B1 /* Debug */,
+				C88AFFF725C5DF4200B8A9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88AFFF825C5DF4200B8A9B1 /* Build configuration list for PBXNativeTarget "Retro calculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88AFFF925C5DF4200B8A9B1 /* Debug */,
+				C88AFFFA25C5DF4200B8A9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88AFFFB25C5DF4200B8A9B1 /* Build configuration list for PBXNativeTarget "Retro calculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88AFFFC25C5DF4200B8A9B1 /* Debug */,
+				C88AFFFD25C5DF4200B8A9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C88AFFC325C5DF3A00B8A9B1 /* Project object */;
+}
