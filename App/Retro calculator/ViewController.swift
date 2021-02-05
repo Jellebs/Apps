@@ -17,8 +17,31 @@ class ViewController: UIViewController {
         case Add = "+"
         case Empty = "Empty"
     }
-    
+    //Aktiv app
+    @IBOutlet weak var Talknap0: UIButton!
+    @IBOutlet weak var Talknap1: UIButton!
+    @IBOutlet weak var Talknap2: UIButton!
+    @IBOutlet weak var Talknap3: UIButton!
+    @IBOutlet weak var Talknap4: UIButton!
+    @IBOutlet weak var Talknap5: UIButton!
+    @IBOutlet weak var Talknap6: UIButton!
+    @IBOutlet weak var Talknap7: UIButton!
+    @IBOutlet weak var Talknap8: UIButton!
+    @IBOutlet weak var Talknap9: UIButton!
+    @IBOutlet weak var Dividere: UIButton!
+    @IBOutlet weak var Gange: UIButton!
+    @IBOutlet weak var Minus: UIButton!
+    @IBOutlet weak var Plus: UIButton!
+    @IBOutlet weak var erLigeMed: UIButton!
     @IBOutlet weak var Outputlbl: UILabel!
+    @IBOutlet weak var Backpanel: UIImageView!
+    @IBOutlet weak var Baggrund: UIImageView!
+    @IBOutlet weak var Månen: UIImageView!
+    
+    //Launch screen
+    @IBOutlet weak var Launchbund: UIImageView!
+    @IBOutlet weak var LaunchBg: UIImageView!
+    @IBOutlet weak var LogoBot: UIStackView!
     
     var btnSound: AVAudioPlayer!
     
@@ -41,7 +64,22 @@ class ViewController: UIViewController {
         } catch let err as NSError {
             print(err.debugDescription)
         }
+        appIsPassive()
     }
+    @IBAction func LaunchStart(_ sender: Any) {
+        appIsActive()
+    }
+    
+    @IBAction func ClearPressed(_ sender: Any) {
+        runningNumber = ""
+        leftValString = ""
+        rightValString = ""
+        currentOperation = Operation.Empty
+        result = "0"
+        Outputlbl.text = result
+    }
+    
+    
     @IBAction func NumberPressed(btn: UIButton!) {
         playSound()
         runningNumber += "\(btn.tag)"
@@ -109,6 +147,49 @@ class ViewController: UIViewController {
         }
         btnSound.play()
     }
+    func appIsActive() {
+        Outputlbl.isHidden = false
+        Talknap0.isHidden = false
+        Talknap1.isHidden = false
+        Talknap2.isHidden = false
+        Talknap3.isHidden = false
+        Talknap4.isHidden = false
+        Talknap5.isHidden = false
+        Talknap6.isHidden = false
+        Talknap7.isHidden = false
+        Talknap8.isHidden = false
+        Talknap9.isHidden = false
+        Baggrund.isHidden = false
+        Backpanel.isHidden = false
+        Månen.isHidden = false
+        
+        Launchbund.isHidden = true
+        LaunchBg.isHidden = true
+        LogoBot.isHidden = true
+    }
+    
+    func appIsPassive() {
+        Launchbund.isHidden = false
+        LaunchBg.isHidden = false
+        LogoBot.isHidden = false
+        Outputlbl.isHidden = true
+        Talknap0.isHidden = true
+        Talknap1.isHidden = true
+        Talknap2.isHidden = true
+        Talknap3.isHidden = true
+        Talknap4.isHidden = true
+        Talknap5.isHidden = true
+        Talknap6.isHidden = true
+        Talknap7.isHidden = true
+        Talknap8.isHidden = true
+        Talknap9.isHidden = true
+        Baggrund.isHidden = true
+        Backpanel.isHidden = true
+        Månen.isHidden = true
+    }
+    
+
+
 }
 
 
